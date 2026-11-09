@@ -4,7 +4,7 @@ import psycopg2
 app = Flask(__name__)
 
 
-db_url = postgresql://lab10_7v8p_user:EcXQ0yqF6OonTspFvrKkrSvhUFzqLH6Q@dpg-dbp5n5h42hec73blj7rg-a/lab10_7v8p
+db_url = "postgresql://lab10_7v8p_user:EcXQ0yqF6OonTspFvrKkrSvhUFzqLH6Q@dpg-dbp5n5h42hec73blj7rg-a/lab10_7v8p"
 
 @app.route('/')
 def hello_world():
